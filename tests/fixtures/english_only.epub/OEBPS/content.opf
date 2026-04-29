@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="bookid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>English Only Demo</dc:title>
+    <dc:creator>Codex Fixture</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:identifier id="bookid">urn:uuid:english-only-demo</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="chapter1" href="Text/chapter1.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="chapter1"/>
+  </spine>
+</package>

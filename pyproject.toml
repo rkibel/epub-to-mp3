@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epub-to-mp3"
+version = "0.1.0"
+description = "Multilingual EPUB-to-audiobook converter with WAV, MP3, and M4B export."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Ron Kibel" }
+]
+keywords = ["epub", "audiobook", "tts", "kokoro", "xtts", "wav", "mp3", "m4b"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "EbookLib>=0.18",
+  "kokoro>=0.9.4",
+  "lingua-language-detector>=2.0.2",
+  "TTS>=0.22.0",
+  "torchcodec>=0.8.0",
+  "transformers>=4.33,<4.50",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+]
+
+[project.scripts]
+epub-to-mp3 = "epub_to_mp3.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
