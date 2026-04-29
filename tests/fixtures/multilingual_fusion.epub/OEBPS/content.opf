@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="bookid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Multilingual Fusion Demo</dc:title>
+    <dc:creator>Codex Fixture</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:identifier id="bookid">urn:uuid:multilingual-fusion-demo</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="titlepage" href="Text/title_page.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" href="Text/toc.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter1" href="Text/chapter1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter2" href="Text/chapter2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnotes" href="Text/footnotes.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="toc"/>
+    <itemref idref="chapter1"/>
+    <itemref idref="chapter2"/>
+    <itemref idref="footnotes"/>
+  </spine>
+</package>
