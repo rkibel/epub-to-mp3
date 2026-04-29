@@ -8,8 +8,8 @@ The current codebase can:
 
 - Parse packaged `.epub` files and exploded EPUB directories
 - Split chapter text into sentence-aware routing chunks
-- Detect and route English, Spanish, French, and Russian spans
-- Synthesize chapter audio through Kokoro for English and XTTS v2 for Spanish, French, and Russian
+- Detect and route English, Spanish, and French spans
+- Synthesize chapter audio through Kokoro for English and XTTS v2 for Spanish and French
 - Write per-chapter `.wav` files
 - Export rendered chapter WAVs into a single `.mp3` or chapter-marked `.m4b` listening file with `ffmpeg`
 
