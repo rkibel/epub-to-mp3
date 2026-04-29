@@ -1,6 +1,6 @@
 # epub-to-mp3
 
-Convert EPUB books into audiobook audio with a hybrid Kokoro + XTTS v2 pipeline and automatic English, Spanish, French, and Russian language routing.
+Convert EPUB books into audiobook audio with a hybrid Kokoro + XTTS v2 pipeline and automatic English, Spanish, and French language routing.
 
 ## Status
 
