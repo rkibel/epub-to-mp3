@@ -1,0 +1,24 @@
+{
+  "book": "Sample multilingual EPUB",
+  "export_format": "m4b",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Opening",
+      "language": "en",
+      "estimated_minutes": 8
+    },
+    {
+      "index": 2,
+      "title": "Carta",
+      "language": "es",
+      "estimated_minutes": 6
+    },
+    {
+      "index": 3,
+      "title": "Interlude",
+      "language": "fr",
+      "estimated_minutes": 5
+    }
+  ]
+}
